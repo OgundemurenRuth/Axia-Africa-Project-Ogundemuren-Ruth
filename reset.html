@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Strictly Hobbies Reset Password Page</title>
+    <link href="./src/style.css" rel="stylesheet" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap");
+    </style>
+  </head>
+  <body>
+    <main class="h-screen flex items-center justify-center">
+      <div
+        class="forgetpasswordcard p-[24px] bg-white border border-[var(--sh-darkblue-S50)] rounded-2xl w-[640px] mx-auto"
+      >
+        <div class="backbutton mb-[48px]">
+          <a class="flex flex-row items-center gap-[8px]" href="/login.html">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="#282828"
+              viewBox="0 0 256 256"
+            >
+              <path
+                d="M165.66,202.34a8,8,0,0,1-11.32,11.32l-80-80a8,8,0,0,1,0-11.32l80-80a8,8,0,0,1,11.32,11.32L91.31,128Z"
+              ></path>
+            </svg>
+            <p>Go back</p></a
+          >
+        </div>
+        <div class="forgetpassword_form">
+          <div class="form_title">
+            <h2 class="text-[24px]/[29px] font-semibold mb-[8px]">
+              Reset Password
+            </h2>
+            <p class="text-[16px]/[20px] mb-[24px]">
+              Enter your email address and we will send you a code to change
+              your password.
+            </p>
+          </div>
+          <form action="#" method="post">
+            <label for="email" class="block text-xs font-semibold mb-[8px]"
+              >Email Address</label
+            >
+            <input
+              class="px-[12px] py-[10px] border border-[var(--sh-darkblue-S50)] rounded-sm w-full mb-[32px] focus:outline-none focus:border-[var(--sh-green-S400)]"
+              type="email"
+              id="email"
+              name="email_address"
+              placeholder="Input email address"
+              required
+            />
+
+            <button
+              type="submit"
+              class="px-[24px] py-[16px] rounded-lg bg-[var(--sh-green-S400)] text-white w-full mb-[24px]"
+            >
+              Continue
+            </button>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+:root {
+  font-family: "Instrument Sans", sans-serif;
+}
+
+:root {
+  --sh-green-S50: #effbf7;
+  --sh-green-S75: #bcefde;
+  --sh-green-S100: #a0e9d0;
+  --sh-green-S200: #77dfbc;
+  --sh-green-S300: #5bd9ae;
+  --sh-green-S400: #40987a;
+  --sh-green-S500: #38846a;
+
+  --sh-darkblue-S50: #e6eced;
+  --sh-darkblue-S75: #96afb3;
+  --sh-darkblue-S100: #6b8e94;
+  --sh-darkblue-S200: #2b5d65;
+  --sh-darkblue-S300: #003c46;
+  --sh-darkblue-S400: #002a31;
+  --sh-darkblue-S500: #00252b;
+
+  --sh-purple-S50: #f3f2fe;
+  --sh-purple-S75: #cfcafb;
+  --sh-purple-S100: #bbb4fa;
+  --sh-purple-S200: #9d94f8;
+  --sh-purple-S300: #897ef6;
+  --sh-purple-S400: #6058ac;
+  --sh-purple-S500: #544d96;
+
+  --sh-yellow-S50: #fffaf4;
+  --sh-yellow-S75: #ffecd0;
+  --sh-yellow-S100: #fee4bc;
+  --sh-yellow-S200: #fed9a0;
+  --sh-yellow-S300: #fed18c;
+  --sh-yellow-S400: #b29262;
+  --sh-yellow-S500: #9b7f55;
+
+  --sh-red-S50: #fff0f1;
+  --sh-red-S75: #febfc5;
+  --sh-red-S100: #fda5ad;
+  --sh-red-S200: #fd7e89;
+  --sh-red-S300: #fc6471;
+  --sh-red-S400: #b0464f;
+  --sh-red-S500: #9a3d45;
+}
+
+@import "tailwindcss";
